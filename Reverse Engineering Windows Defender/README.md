@@ -1,5 +1,5 @@
 
-#Reverse Engineering Windows Defender's JavaScript Engine
+# Reverse Engineering Windows Defender's JavaScript Engine
 
 Windows Defender’s MpEngine.dll implements the core of Defender’s functionality in an enormous ~11 MB, 45,000+ function DLL. In this presentation, we’ll look at the ~1,200 functions that comprise Defender’s proprietary JavaScript engine, which is used for analyzing potentially malicious JS code. Defender implements a full JS engine, though it is significantly simpler than the engines found in modern web browsers, so it is a tractable target for reverse engineering from binary.
 
