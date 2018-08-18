@@ -1,7 +1,7 @@
 
 # Reverse Engineering Windows Defender's Windows Binary Emulator
 
-* Presented at REcon Montreal, Black Hat USA, and DEF CON *
+*Presented at REcon Montreal, Black Hat USA, and DEF CON*
 
 Windows Defender's `mpengine.dll` implements the core of Defender antivirus' functionality in an enormous ~11 MB, 30,000+ function DLL. 
 
