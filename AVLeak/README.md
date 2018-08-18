@@ -1,5 +1,7 @@
 # AVLeak
 
+*In collaboration with Jeremy Blackthorne, Andrew Fasano, Patrick Biernat, and Dr. Bulent Yener of Rensselaer Polytechnic Institute*
+
 AVLeak is a tool for fingerprinting consumer antivirus emulators through automated black box testing. AVLeak can be used to extract fingerprints from AV emulators that may be used by malware to detect that it is being analyzed and subsequently evade detection, including environmental artifacts, OS API behavioral inconsistencies, emulation of network connectivity, timing inconsistencies, process introspection, and CPU emulator "red pills.”
 
 Emulator fingerprints may be discovered through painstaking binary reverse engineering, or with time consuming black box testing using binaries that conditionally choose to behave benignly or drop malware based on the emulated environment. AVLeak significantly advances upon prior approaches to black box testing, allowing researchers to extract emulator fingerprints in just a few seconds, and to script out testing using powerful APIs.
