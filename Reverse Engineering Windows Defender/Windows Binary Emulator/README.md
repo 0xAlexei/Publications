@@ -1,6 +1,8 @@
 
 # Reverse Engineering Windows Defender's Windows Binary Emulator
 
+*Presented at REcon Montreal, Black Hat USA, and DEF CON*
+
 Windows Defender's `mpengine.dll` implements the core of Defender antivirus' functionality in an enormous ~11 MB, 30,000+ function DLL. 
 
 In this presentation, we'll look at Defender's emulator for analysis of potentially malicious Windows PE binaries on the endpoint. To the best of my knowledge, there has never been a conference talk or publication on reverse engineering the internals of any antivirus binary emulator before.
